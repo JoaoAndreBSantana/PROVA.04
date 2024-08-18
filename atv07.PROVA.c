@@ -6,7 +6,7 @@ int main() {
 
     printf("Digite a chave que seja numero positivo: ");
     if (scanf("%d", &chave) != 1 || chave <= 0) {  // verifica se a chave é um número positivo
-        printf("A chave deve ser um número positivo.\n");  // deu erro
+        printf("A chave deve ser um numero positivo.\n");  // deu erro
         return 1;  // retorna 1 de erro
     }
 
