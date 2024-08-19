@@ -2,12 +2,12 @@
 #include <string.h>
 #include <ctype.h>
 //a funcao tolower converte um caractere maiusculo para seu equivalente minusculo
-//a função isalpha verifica se um caractere é uma letra alfabética
-//a função strcspn(s, reject)Calcula o comprimento do segmento inicial de s que não contém nenhum dos caracteres da string reject
-//a função fgets lê uma linha de texto da entrada padrão (ou de um arquivo) e armazena na string
+//a funÃ§Ã£o isalpha verifica se um caractere Ã© uma letra alfabÃ©tica
+//a funÃ§Ã£o strcspn(s, reject)Calcula o comprimento do segmento inicial de s que nÃ£o contÃ©m nenhum dos caracteres da string reject
+//a funÃ§Ã£o fgets lÃª uma linha de texto da entrada padrÃ£o (ou de um arquivo) e armazena na string
 
 #define TAMANHO_ALFABETO 26
-//ATIVIDADE 6 (confesso q procurei auxilio nessa atv... pesquisei em comunidades no Reddit como e quais ferramnetas me ajudariam aq)
+//ATIVIDADE 6 
 int main() {
     
     char chave[TAMANHO_ALFABETO + 1];  // adiciona 1 para o caractere nulo \0
@@ -42,7 +42,7 @@ int main() {
             //converte o caractere para minusculoo
             printf("%c", substituicao[tolower(c) - 'a']);  // substituicao correta
         } else {
-            printf("%c", c);  // imprime caracteres nao alfabeticos sem alteraçao
+            printf("%c", c);  // imprime caracteres nao alfabeticos sem alteraÃ§ao
         }
     }
 
