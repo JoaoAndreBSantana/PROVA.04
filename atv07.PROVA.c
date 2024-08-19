@@ -20,7 +20,7 @@ int main() {
 
 
   // Lê e criptografa o texto caractere por caractere
-    while ((caractere = getchar()) != '\n') {  // Continua ate encontrar um caractere de nova linha// esta parte fiz com auxilio de comunidades no reddit
+    while ((caractere = getchar()) != '\n') {  // Continua ate encontrar um caractere de nova linha// 
         if (caractere >= 'A' && caractere <= 'Z') {  // letra maiúscula
             printf("%c", (caractere - 'A' + chave) % 26 + 'A');
         } else if (caractere >= 'a' && caractere <= 'z') {  // minuscula
