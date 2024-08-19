@@ -2,16 +2,16 @@
 #include <string.h>
 #include <ctype.h>
 
-#define TAMANHO_BUF 100//o nome ja diz tudo
+#define TAMANHO_BUF 100 
 //ATIVIDADE 5 
 /*O CODIGO FORNECIDO PELA ATV PEDE APENAS PARA IMPRIMIR. NO MEU COMPILADOR N TEM A BIBLIOTECA
-cs50 E TIVE Q MODIFICAR PARA COMPILAR NO MEU DEV C++ SEM A UTILIZAÇÃO DE cs50 */
+cs50 E TIVE Q MODIFICAR PARA COMPILAR NO MEU DEV C++ SEM A UTILIZAÃ‡ÃƒO DE cs50 */
 
 //pontos A=1,B=3 e vai indo
 int PONTOS[26] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
-//funcao para calcular a pontuação de uma palavra
-int computeP(char* palavra) { //ponteiro que da uma segurança melhor 
+//funcao para calcular a pontuaÃ§Ã£o de uma palavra
+int computeP(char* palavra) { //ponteiro que da uma seguranÃ§a melhor 
     int pont = 0;  
     int TAM = strlen(palavra);  // tamanho da palavra(strlen calcula o tamanho da string)
 
@@ -43,7 +43,7 @@ int main() {
     int pont1 = computeP(palavra1);
     int pont2 = computeP(palavra2);
 
-    // Compara as pontuações e imprime o resultado
+    // Compara as pontuaÃ§Ãµes e imprime o resultado
     if (pont1 > pont2) {
         printf("jogador 1 vence com %d pontos", pont1);
     } else if (pont2 > pont1) {
