@@ -3,7 +3,7 @@ atividades_algoritmos
 
 AVISO QUE NAO USEI  A BIBLIOTECA cs50 NOS MEUS CÓDIGOS! Não consegui colocar no meu dev c++ e decidi usar sem ele mesmo.
 
-Usei bibliotecas padrões mesmo como stdio,string e ctype.
+Usei bibliotecas padrões como stdio,string e ctype.
 
 Procurei auxílio de como e onde usar as funcões e ajustes em comunidades relacionadas no Reddit
 
