@@ -4,14 +4,12 @@
 
 #define TAMANHO_BUF 100 
 //ATIVIDADE 5 
-/*O CODIGO FORNECIDO PELA ATV PEDE APENAS PARA IMPRIMIR. NO MEU COMPILADOR N TEM A BIBLIOTECA
-cs50 E TIVE Q MODIFICAR PARA COMPILAR NO MEU DEV C++ SEM A UTILIZAÇÃO DE cs50 */
 
 //pontos A=1,B=3 e vai indo
 int PONTOS[26] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
 //funcao para calcular a pontuação de uma palavra
-int computeP(char* palavra) { //ponteiro que da uma segurança melhor 
+int computeP(char* palavra) { //ponteiro 
     int pont = 0;  
     int TAM = strlen(palavra);  // tamanho da palavra(strlen calcula o tamanho da string)
 
